@@ -71,7 +71,7 @@
                 </v-card-text>
                 <v-card-text>
                     Phone Number : {{donar.Contact_No}}<br>
-                    {{donar.Batch}}
+                    <!-- {{donar.Batch}} -->
                 </v-card-text>
             </v-card>
         </v-flex>
