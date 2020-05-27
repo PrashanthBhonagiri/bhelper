@@ -1,6 +1,14 @@
 <template>
 <div class="container">
   <h1 style="color:blue">Blood Donars List</h1>
+  <p style="text-align:justify">
+    The Following Blood Donars list is collected from the various Blood Donations Camps conducted in VNRVJIET by Team NSS
+  </p>
+  <span>Follow us 
+            <a href="https://www.instagram.com/nssteamvnrvjiet/" target="__blank" style="text-decoration:none">
+                <i class='fab fa-instagram' style='font-size:24px;color: red;'></i>
+                <span style="color: red">/nssteamvnrvjiet</span>
+            </a></span>
  <v-app id="inspire" class="container">
    <v-btn @click="fun()" style="width:50%">
      <span v-if="showFilter"> Hide Filter</span>
